@@ -1,0 +1,13 @@
+h1 {
+  color: #4cc9f0;
+  margin-bottom: 10px; }
+
+h2 {
+  color: #7209b7;
+  margin-bottom: 10px; }
+
+p {
+  margin-bottom: 10px;
+  /*if this is a p and has the class name 'emphasized'*/ }
+  p.emphasized {
+    font-style: italic; }

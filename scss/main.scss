@@ -1,0 +1,20 @@
+@mixin space-after{
+	margin-bottom: 10px;
+}
+$color-primary: #4cc9f0;
+$color-secondary: #7209b7;
+h1{
+	color: $color-primary;
+	@include space-after;
+}
+h2{
+	color: $color-secondary;
+	@include space-after;
+}
+p{
+	@include space-after;
+	/*if this is a p and has the class name 'emphasized'*/
+	&.emphasized{
+		font-style: italic;
+	}
+}
